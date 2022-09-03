@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #E5E5E5
+}
+
+p {
+  margin: 0;
+}
+
+.App {
+  width: 60%;
+  align-items: center;
+  margin: auto;
+  background-color: #FFFFFF;
+  height: max-content;
+  overflow: auto;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  position: relative;
+  background-color: #F55A5A;
+  height: 55px;
+  left: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.header>h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 40px;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+
+}
+
+.card--image {
+  width: 125px;
+  left: 40px;
+  height: 200px;
+  top: 100px;
+  border-radius: 5px;
+}
+
+.card--details {
+  justify-content: end;
+  width: 90%;
+}
+
+.mapper {
+  width: 16px;
+  height: 15px;
+  font-size: larger;
+}
+
+.country {
+  width: 20px;
+  height: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  padding: 4px;
+}
+
+.map {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  justify-content: start;
+}
+
+.name {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  padding: 15px 0 15px 0;
+  justify-content: start;
+}
+
+.date>span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.date {
+  padding-bottom: 10px;
+}
+
+.body {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #2B283A;
+}
+
+.logo {
+  width: 25px;
+  padding-right: 2px;
+  border-radius: 20px;
+}
